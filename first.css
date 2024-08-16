@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy", sans-serif;
+  color: #fff;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000f3;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 30px;
+}
+#nav-2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#nav h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+#main h1 {
+  font-size: 150px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 120px;
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+  z-index: 9;
+}
+#main h1:nth-child(2) {
+  margin-top: 180px;
+}
+#main h1:nth-child(3) {
+  text-align: center;
+}
+#main h1:nth-child(4) {
+  text-align: center;
+}
+
+img {
+  height: 400px;
+  rotate: 15deg;
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  border-radius: 10px;
+}
+#img1 {
+  rotate: 8deg;
+}
+#img2 {
+  rotate: 0deg;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 30px;
+}
+footer #part2{
+    margin-right: 44%;
+}
+
+footer h3 :last-child{
+    text-align: center;
+}
+
+footer h3{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
